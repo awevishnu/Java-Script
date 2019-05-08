@@ -1,0 +1,15 @@
+<script>
+test();
+console.log('-------------------');
+test();
+console.log('-------------------');
+function test()
+{
+console.log('Hello From test');
+}
+test();
+console.log('-------------------');
+test();
+console.log('-------------------');
+</script>
+

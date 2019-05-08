@@ -1,0 +1,28 @@
+<script>
+var test=function(a,x,y)
+{
+console.log("Hello from test: "+a+", "+x+", "+y);
+return 'hello';
+}
+var i=test();
+console.log(i);
+console.log('-----------');
+console.log(test(20,30,true));
+console.log('-----------');
+console.log(test("test"));
+console.log('-----------');
+</script>
+<!--
+test31.html:4 Hello from test: undefined, undefined, undefined
+test31.html:8 hello
+test31.html:9 -----------
+test31.html:4 Hello from test: 20, 30, true
+test31.html:10 hello
+test31.html:11 -----------
+test31.html:4 Hello from test: test, undefined, undefined
+test31.html:12 hello
+test31.html:13 -----------
+ -->
+ 
+<!--function definition can be assigned to one variable-->
+

@@ -1,0 +1,36 @@
+<script>
+var i=test();
+console.log(i);
+console.log('-------------------');
+console.log(test());
+console.log('-------------------');
+function test(a, b ,c)
+{
+console.log('Hello From test:' + a + ", " + b + "," +c);
+return 'abc';
+//return 10;
+}
+</script>
+<!--
+
+ Hello From test:undefined, undefined,undefined
+
+
+ abc
+
+
+ -------------------
+
+
+ Hello From test:undefined, undefined,undefined
+
+
+ abc
+
+
+ -------------------
+ 
+ -->
+ 
+<!--function should not have return type in js, but it can return any value.-->
+
